@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+body {
+text-align: center;
+font-family: arial,sans-serif;
+}
+textarea {
+font-family: arial,sans-serif;
+}
+</style>
+<body>
+
+<h1>Bionic reading</h1>
+
+<textarea cols=40" rows="40" id="area" ></textarea> </br>
+
+
+<script>
+const area = document.getElementById("area");
+area.addEventListener("input", update);
+
+let text = getElementById("area").value;
+
+
+function update() {
+    //area.value = area.value.toUpperCase();
+    area.style.fontWeight = "bold";
+    //text.style.fontWeight = "bold";
+    
+}
+</script>
